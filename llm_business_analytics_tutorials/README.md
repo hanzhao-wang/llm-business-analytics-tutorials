@@ -17,12 +17,6 @@ These tutorials provide practical experience with training toy language models f
 - **Problem Solving**: Applying Transformer to structured tasks like arithmetic
 
 
-## 🎯 Tutorial Overview
-
-| Tutorial | Description | Key Concepts | Duration |
-|----------|-------------|--------------|----------|
-| **1. nanoGPT** | Word-level text generation using Shakespeare | Tokenization, Transformers, Text Generation | ~45 min |
-| **2. GPT-Adder** | Teaching AI to perform arithmetic | Sequence-to-sequence, Classification, Structured Learning | ~30 min |
 
 ## 🚀 Quick Start
 
