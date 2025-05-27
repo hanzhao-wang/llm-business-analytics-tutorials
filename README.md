@@ -58,12 +58,8 @@ This creates a complete `llm_analytics` environment with all dependencies.
 
 ### Knowledge Requirements
 - **Basic Python**: Variables, functions, loops
-- **Optional**: Basic understanding of neural networks (we'll explain the concepts)
+- **Optional**: Basic understanding of neural networks
 
-### Hardware Requirements
-- **CPU**: Any modern laptop CPU (no GPU required!)
-- **RAM**: 4GB+ recommended
-- **Storage**: ~500MB for environment and data
 
 ## 📖 Detailed Setup Instructions
 
@@ -127,21 +123,11 @@ Verify: `python3 --version`
 
 **What you'll build**: A word-level language model that generates Shakespeare-style text
 
-```
-"First Citizen: Let us kill him, and we know't..."
-```
 
 ### Tutorial 2: GPT-Adder - Arithmetic Learning 🧮
 **File**: `adder_tutorial/adder_tutorial.ipynb`
 
 **What you'll build**: A model that learns to perform addition (e.g., "2+3=" → "5")
-
-**Key Learning Outcomes**:
-- Sequence-to-sequence learning with transformers
-- Classification head design for structured outputs
-- Synthetic data generation for training
-- Evaluation metrics for accuracy assessment
-- Task-specific model architecture
 
 ```
 Input: "7+3=" → Output: "10" ✅
