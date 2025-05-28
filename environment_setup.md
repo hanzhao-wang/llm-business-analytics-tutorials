@@ -49,7 +49,6 @@ Alternatively, you can use the installer script:
 curl -LsSf https://astral.sh/uv/install.sh | sudo sh
 ```
 
----
 
 ### Linux (Ubuntu/Debian example)
 
@@ -125,7 +124,6 @@ Alternatively, on Windows:
 
 - Open Device Manager → Expand "Display Adapters" to check for NVIDIA hardware.
 
----
 
 ### Step 2: Install PyTorch
 
@@ -159,7 +157,7 @@ if torch.cuda.is_available():
 
 ## Launching Jupyter
 
-Start a notebook server (still inside the `(GenAI)` environment) by the following command:
+Start a notebook server (still inside the `(GenAI)` environment and `cd` into the target folder, i.e., the folder that contains the notebook) by the following command:
 
 ```bash
 jupyter notebook
