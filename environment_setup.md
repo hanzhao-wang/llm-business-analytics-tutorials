@@ -104,7 +104,8 @@ Your terminal prompt will now display `(GenAI)` to indicate that you are working
 Inside the active environment, install the essential Python libraries:
 
 ```bash
-uv pip install numpy pandas scikit-learn matplotlib jupyter notebook
+uv pip install numpy pandas scikit-learn matplotlib jupyter notebook gensim seaborn tqdm
+uv pip install --upgrade "scipy>=1.9.0,<1.11.0"
 ```
 
 ## Installing PyTorch (with Optional GPU Support)
