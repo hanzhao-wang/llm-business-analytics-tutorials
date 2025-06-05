@@ -26,7 +26,7 @@ If you have Anaconda or Miniconda installed run the following code in your termi
 
 ```bash
 # Clone or download this repository
-cd llm_business_analytics_tutorials
+cd llm-business-analytics-tutorials
 
 # Run the automated setup script
 chmod +x setup_environment.sh
@@ -37,11 +37,11 @@ This creates a complete `GenAI` conda environment with all dependencies. The scr
 
 ### Option 2: Manual Setup
 
-These steps assume you have already cloned or downloaded the repository and are in the `llm_business_analytics_tutorials` directory. Open your Terminal on MacOS or Command Prompt on Windows and type:
+These steps assume you have already cloned or downloaded the repository and are in the `llm-business-analytics-tutorials` directory. Open your Terminal on MacOS or Command Prompt on Windows and type:
 
 1. **Navigate to the project directory (if you haven't already)**:
    ```bash
-   cd path/to/llm_business_analytics_tutorials-main
+   cd path/to/llm-business-analytics-tutorials-main
    ```
 
 2. **Set up or Activate the `GenAI` Virtual Environment**:
@@ -123,7 +123,7 @@ Verify: `python3.11 --version`
 <details>
 <summary>🔧 VS Code/Cursor Setup</summary>
 
-1. **Open the project folder**: `File > Open Folder...` → Select `llm_business_analytics_tutorials`
+1. **Open the project folder**: `File > Open Folder...` → Select `llm-business-analytics-tutorials`
 2. **Select Python interpreter**:
    - Press `Ctrl+Shift+P` (Windows) or `Cmd+Shift+P` (Mac)
    - Type "Python: Select Interpreter"
